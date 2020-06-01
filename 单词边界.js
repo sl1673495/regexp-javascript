@@ -1,7 +1,7 @@
-let res = "adobe(2016) ps6.4".match(/\b(\w+)/g)
+let res = "The cat sat on cat".match(/\b(\w+)/g)
 console.log("res: ", res)
-// ["adobe", "2016", "ps6", "4"]
+// [ 'The', 'cat', 'sat', 'on', 'cat' ]
 
-let res2 = "adobe(2016) ps6.4".match(/\B(\w+)/g)
-console.log('res2: ', res2);
-// ["dobe", "016", "s6"]
+let res2 = "The cat sat on cat".match(/\B(\w+)/g)
+console.log("res2: ", res2)
+// [ 'he', 'at', 'at', 'n', 'at' ]

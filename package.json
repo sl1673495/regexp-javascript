@@ -1,0 +1,12 @@
+{
+  "name": "regexp-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "三元表达式中的引号字符.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

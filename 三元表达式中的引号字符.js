@@ -1,7 +1,7 @@
 // 不匹配换行 也不匹配':'
 let reg = /['|"|`](\/api[^:\n]+)['|"|`]/ig
 
-let str = "isTrue ? `/api/a/b` : `/api/a/c/${d}`"
+let str = "isTrue ? '/api/a/b' : `/api/a/c/${d}`"
 
 let str2 = `Upload
 className="pull-left"

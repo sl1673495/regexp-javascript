@@ -3,3 +3,8 @@
 const reg = /(go) \1/;
 const str = "go go";
 reg.test(str);
+
+const tagReg = /<([^>]+)>[\d\D]*<\/\1>/
+const html = "<title>regular expression</title>";
+// title
+console.log('html.match(tagReg)', html.match(tagReg))
